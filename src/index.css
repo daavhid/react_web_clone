@@ -1,0 +1,28 @@
+@font-face {
+    font-family: openSans;
+    src: url('./assets/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgImage{
+    background-image: url('./assets/images/full_screen.webp');
+    background-size: cover;
+    background-position: center;
+    
+    
+    background-repeat: no-repeat;
+}
+
+.bgGradient{
+   background-color: #000000cb;
+}
+
+/* @layer base{
+    p{
+        @apply text-gray-500
+    }
+} */
