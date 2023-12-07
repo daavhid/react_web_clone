@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <>
         <div className='bg-zinc-500/60'>
-            <div className='grid md:grid-cols-3 gap-4 w-[85%] md:w-[90%] md:px-4  mx-auto  text-white py-8 font-semibold text-xl'>
+            <div className='grid md:grid-cols-3 gap-4 w-[85%] md:w-[80%] md:px-4  mx-auto  text-white py-8 font-semibold'>
                 <a href="/">Report a Vulnerability to CERT/CC </a>
                 <a href="/">Subscribe to SEI Bulletin</a>
                 <a href="/">Request Permission to Use SEI Materials </a>
             </div>
         </div>
         <div className='bgGradient pb-8'>
-            <div className='w-[85%] md:w-[90%] md:px-4 mx-auto text-white grid md:grid-cols-3 gap-10 md:py-10 py-4 text-xl items-start'>
+            <div className='w-[85%] md:w-[80%] md:px-4 mx-auto text-white grid md:grid-cols-3 gap-10 md:py-10 py-4 text-xl items-start'>
                 <div>
                     <h1 className=' text-gray-200 w-[53%] md:w-[52%] font-openSans font-medium leading-7'>Carnegie Mellon University
                         Software Engineering Institute
@@ -34,7 +34,7 @@ const Footer = () => {
                 </button>
                 
             </div>
-            <div className='text-gray-100 text-sm my-  flex gap-2 mx-auto w-[85%] md:w-[90%] md:px-4 items-center flex-wrap '>
+            <div className='text-gray-100 text-sm my-  flex gap-2 mx-auto w-[85%] md:w-[80%] md:px-4 items-center flex-wrap '>
                 <p>Office locations<span className='font-bold mx-4'>|</span></p>
                 <p>Additional Sites Directory<span className='font-bold  mx-4'>|</span></p>
                 <p>Legal<span className='font-bold  mx-4'>|</span></p>

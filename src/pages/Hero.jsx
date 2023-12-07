@@ -16,6 +16,7 @@ import {MdChevronRight} from 'react-icons/md'
 const Hero = () => {
   return (
     <>
+        <div className='bgImage h-[330px] '></div>
     
         <div className='w-[85%] md:w-[90%] mx-auto mb-16'>
             <p className='py-4 my-4 text-2xl flex items-center'><a className='text-red font-semibold'>SEI</a><MdChevronRight className='mx-3 font-light text-xs align-middle'/><span className='text-gray-500 text-sm font-medium'>Education and Outreach</span></p>
@@ -25,15 +26,15 @@ const Hero = () => {
                     <h3 className='text-gray-500 text-2xl' >The SEI takes innovation from concept, through research and development, and into application. Although we are an R&D center, our contribution doesn't end there; we also make things that people working in software and cybersecurity can use—prototypes, tools, methods, curricula, and more.</h3>
                 </div>
                 <ul className='bg-gray-100 my-8 md:my-0 px-6 text-gray-600 grow'>
-                    <li className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Courses</span><span className='font-bold text-xl'>{'>'}</span></li>
+                    <Link to={'courses'} className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Courses</span><span className='font-bold text-xl'>{'>'}</span></Link>
                     <div className='bg-gray-400 h-[1px] '></div>
-                    <li className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Credentials</span><span className='font-bold text-xl'>{'>'}</span></li>
-                    <div className='bg-gray-400 h-[1px] '></div>
-
-                    <li className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Curricula</span><span className='font-bold text-xl'>{'>'}</span></li>
+                    <Link to={'credentials'} className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Credentials</span><span className='font-bold text-xl'>{'>'}</span></Link>
                     <div className='bg-gray-400 h-[1px] '></div>
 
-                    <li className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Licencing SEI Materials</span><span className='font-bold text-xl'>{'>'}</span></li>
+                    <Link to={'curricula'} className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Curricula</span><span className='font-bold text-xl'>{'>'}</span></Link>
+                    <div className='bg-gray-400 h-[1px] '></div>
+
+                    <Link to={'licencing-sei-materials'} className='py-8 flex justify-between text-xl hover:text-red cursor-pointer'><span>Licencing SEI Materials</span><span className='font-bold text-xl'>{'>'}</span></Link>
                 </ul>
             </div>
         </div>
